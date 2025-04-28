@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Geometria</title>
+    <script src="geometria.js" defer></script>
+</head>
+<body>
+    <h1>Obliczenia geometryczne</h1>
+
+    a: <input type="number" id="a" min="0" value="0"><br><br>
+    b: <input type="number" id="b" min="0" value="0"><br><br>
+    c: <input type="number" id="c" min="0" value="0"><br><br>
+    h: <input type="number" id="h" min="0" value="0"><br><br>
+
+    <h2>Trójkąt</h2>
+    <button onclick="poleTrojkata()">Pole trójkąta</button>
+    <span id="P1"></span><br>
+
+    <button onclick="obwodTrojkata()">Obwód trójkąta</button>
+    <span id="Ob1"></span><br><br>
+
+    <h2>Prostokąt</h2>
+    <button onclick="poleProstokata()">Pole prostokąta</button>
+    <span id="P2"></span><br>
+
+    <button onclick="obwodProstokata()">Obwód prostokąta</button>
+    <span id="Ob2"></span><br><br>
+
+    <h2>Koło</h2>
+    <button onclick="poleKola()">Pole koła</button>
+    <span id="P3"></span><br>
+
+    <button onclick="obwodKola()">Obwód koła</button>
+    <span id="Ob3"></span><br><br>
+
+    <h2>Trapez równoramienny</h2>
+    <button onclick="poleTrapezu()">Pole trapezu</button>
+    <span id="P4"></span><br>
+
+    <button onclick="obwodTrapezu()">Obwód trapezu</button>
+    <span id="Ob4"></span><br><br>
+
+    <h2>Oblicz c (przeciwprostokątna)</h2>
+    <button onclick="obliczC()">Oblicz c</button>
+
+</body>
+</html>
